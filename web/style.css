@@ -1,0 +1,25 @@
+@font-face {
+    src: url(Fonts/Dosis-Bold.ttf);
+    font-family: Dosis-Bold;
+}
+@font-face {
+    src: url(Fonts/Dosis-SemiBold.ttf);
+    font-family: Dosis-SemiBold;
+}
+.text {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: Dosis-SemiBold
+}
+
+.h1 {
+    font-size: 50px;
+    line-height: 0px;
+    font-family: Dosis-Bold
+}
+
+.h2 {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: Dosis-Bold
+}

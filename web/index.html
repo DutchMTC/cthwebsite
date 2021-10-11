@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background-color: red;
+                transition: background-color 7s;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+    
+            var i = 1;
+    
+            window.setInterval(function(){
+                document.body.style.backgroundColor = colors[i];
+                i++;
+                if (i === colors.length){
+                    i=0;
+                }
+            }, 5000);
+        </script>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="100"><h1 class="h1">Github Cheatsheet</h1>
+        </div>
+
+        <hr>
+
+        <h2 class="h2">1. Maak een map:</h2>
+        <p class="text">Maak een map waar je alles in wilt hebben.</p>
+
+        <br>
+
+        <h2 class="h2">2. Git Status:</h2>
+        <p class="text">Check of er niet al een respository is gemaakt in je map door "git status" uit te voeren in cmd.</p>
+
+        <br>
+
+        <h2 class="h2">3. Git Init:</h2>
+        <p class="text">Maak een respository aan in je map door "git init" uit te voeren in cmd in je map.</p>
+
+        <br>
+
+        <h2 class="h2">4. Git Status:</h2>
+        <p class="text">Doe alweer "git status om te checken of de repository is gemaakt.</p>
+
+        <br>
+
+        <h2 class="h2">5. Maak een GitHub Repository:</h2>
+        <p class="text">Klik op het groene knopje waar "New" op staat.</p>
+        <p class="text">Geef de repository een naam en klik dan op create om je repository aan te maken.</p>
+
+        <br>
+
+        <h2 class="h2">6. Linken aan GitHub:</h2>
+        <p class="text">Doe "git remote add origin (Repository link)" om je map te linken aan je GitHub repository.</p>
+        <p class="text">Doe daarna "git branch -M main" om je branch op main te zetten.</p>
+
+        <br>
+
+        <h2 class="h2">7. Add & Commit:</h2>
+        <p class="text">Doe "git add ." om al je bestanden toe te voegen.</p>
+        <p class="text">Doe daarna "git commit -m "commit name"" om alles te committen.</p>
+
+        <br>
+
+        <h2 class="h2">8. Pushen naar GitHub:</h2>
+        <p class="text">Doe "git push -u origin main" om alle bestanden te pushen naar je GitHub Repository.</p>
+        
+        <br>
+        
+        <h2 class="h2">Originele Cheatsheet:</h2>
+        <img src="cheatsheet.png" width="500">
+    </body>
+</html>
